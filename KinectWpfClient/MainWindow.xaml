@@ -1,0 +1,12 @@
+﻿<Window x:Class="KinectWpfClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="400" Width="365">
+    <Grid>
+        <Image Height="240" HorizontalAlignment="Left" Margin="12,12,0,0" Name="imageColor" Stretch="Fill" VerticalAlignment="Top" Width="320" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="113,280,0,0" Name="tbIP" VerticalAlignment="Top" Width="120" />
+        <Button Content="Connect" Height="23" HorizontalAlignment="Left" Margin="12,309,0,0" Name="bConnect" VerticalAlignment="Top" Width="120" Click="bConnect_Click" />
+        <Button Content="Disconnect" Height="23" HorizontalAlignment="Left" Margin="212,309,0,0" Name="bDisconnect" VerticalAlignment="Top" Width="120" Click="bDisconnect_Click" />
+        <Label Content="Server IP:" Height="26" HorizontalAlignment="Left" Margin="139,258,0,0" Name="label1" VerticalAlignment="Top" Width="63" />
+    </Grid>
+</Window>
