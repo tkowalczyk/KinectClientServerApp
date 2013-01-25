@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Coding4Fun.Kinect.KinectService.Listeners</id>
+    <version>1.6.0</version>
+    <title>Coding4Fun Kinect Service - Listeners</title>
+    <authors>Coding4Fun, Brian Peek</authors>
+    <owners>Coding4Fun, Brian Peek</owners>
+    <licenseUrl>http://kinectservice.codeplex.com/license</licenseUrl>
+    <projectUrl>http://kinectservice.codeplex.com/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Service listeners to stream kinect color, depth, skeleton, and audio data to another PC or Windows Phone.  These run inside a host application where the Kinect is installed.  Use the PhoneClient or WpfClient libraries to connect and receive data from these listeners.</description>
+    <releaseNotes>Updated for use with Kinect for Windows SDK 1.6</releaseNotes>
+    <copyright />
+    <tags>kinect service network coding4fun</tags>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="Microsoft.Kinect" targetFramework="" />
+    </frameworkAssemblies>
+    <references>
+      <reference file="Coding4Fun.Kinect.KinectService.Common.dll" />
+      <reference file="Coding4Fun.Kinect.KinectService.Listeners.dll" />
+    </references>
+  </metadata>
+</package>

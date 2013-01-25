@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Coding4Fun.Kinect.KinectService.WpfClient</id>
+    <version>1.6.0</version>
+    <title>Coding4Fun Kinect Service - WPF Client</title>
+    <authors>Coding4Fun, Brian Peek</authors>
+    <owners>Coding4Fun, Brian Peek</owners>
+    <licenseUrl>http://kinectservice.codeplex.com/license</licenseUrl>
+    <projectUrl>http://kinectservice.codeplex.com/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>WPF Client for the Coding4Fun Kinect Service.</description>
+    <releaseNotes>Updated for use with Kinect for Windows SDK 1.6</releaseNotes>
+    <tags>kinect service network coding4fun</tags>
+    <references>
+      <reference file="Coding4Fun.Kinect.KinectService.Common.dll" />
+      <reference file="Coding4Fun.Kinect.KinectService.WpfClient.dll" />
+    </references>
+  </metadata>
+</package>
